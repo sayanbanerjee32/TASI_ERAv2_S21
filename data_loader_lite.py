@@ -1,4 +1,6 @@
 import tiktoken
+import torch
+
 class DataLoaderLite:
     def __init__(self, B, T):
         self.B = B
