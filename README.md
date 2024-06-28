@@ -24,7 +24,7 @@ Collection of William Shakespeare plays
 2. Added model code to add the text generator function.
 3. Added unscaling of GradientScaler before gradient clipping to fix high values of gradient norm values
 4. Added code to save model arguments and weights that would need to be used for inferencing later
-5. Pushed the model_gpt2.py and saved artifacts to HuggingFace Model Hub using HuggingFace API from this [notebook]()
+5. Pushed the model_gpt2.py and saved artifacts to HuggingFace Model Hub using HuggingFace API from this [notebook](https://github.com/sayanbanerjee32/TASI_ERAv2_S21/blob/main/gpt2_training_cusom_input.ipynb)
 
 ### Results
 1. model training achieved loss of 0.083899
@@ -40,7 +40,7 @@ Collection of William Shakespeare plays
 
 The app is available [here](https://huggingface.co/spaces/sayanbanerjee32/nanogpt2_text_generator)  
 
-![image](https://github.com/sayanbanerjee32/TASI_ERAv2_S21/assets/11560595/3c796cc1-3e1a-4525-8c6d-23effaf8ac62)  
+![image](https://github.com/sayanbanerjee32/TASI_ERAv2_S21/assets/11560595/4cfc4213-7b0a-418b-bc5c-6fd828022d16)
 
 The App takes following as input 
 1. Seed Text (Prompt) - This is provided as input text to the GPT model, based on which it generates further contents. If no data is provided, the only a space (" ") is provided as input
