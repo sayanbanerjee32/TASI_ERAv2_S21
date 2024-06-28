@@ -20,7 +20,7 @@ Collection of William Shakespeare plays
 
 
 ### Model Training
-1. Refactored code in [gpt2_training](https://github.com/sayanbanerjee32/TASI_ERAv2_S21/blob/main/gpt2_training.ipynb) notebook and model_gpt2.py
+1. Refactored code in [gpt2_training](https://github.com/sayanbanerjee32/TASI_ERAv2_S21/blob/main/gpt2_training_cusom_input.ipynb) notebook and model_gpt2.py
 2. Added model code to add the text generator function.
 3. Added unscaling of GradientScaler before gradient clipping to fix high values of gradient norm values
 4. Added code to save model arguments and weights that would need to be used for inferencing later
