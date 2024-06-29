@@ -27,9 +27,9 @@ Collection of William Shakespeare plays
 5. Pushed the model_gpt2.py and saved artifacts to HuggingFace Model Hub using HuggingFace API from this [notebook](https://github.com/sayanbanerjee32/TASI_ERAv2_S21/blob/main/gpt2_training_cusom_input.ipynb)
 
 ### Results
-1. model training achieved loss of 0.083899
+1. model training achieved loss of 0.096154 
 2. training speed was around 18k tokens / second
-3. It took 425 steps to reach there. However, each step includes gradient accumulation, i.e. though weight updates were done once in each step, it iterated on 64 batches in each step. Effectively, we can say it took 27,200 iterations
+3. It took 424 steps to reach there. However, each step includes gradient accumulation, i.e. though weight updates were done once in each step, it iterated on 64 batches in each step. Effectively, we can say it took 27k iterations
 4. While the training log shows 28 seconds per step, considering 64 batches within each step, we can say it took 430 ms per iteration.
 
 ### Gradio App in HuggingFace Spaces
