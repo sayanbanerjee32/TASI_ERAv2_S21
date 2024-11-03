@@ -1,4 +1,4 @@
-# TASI_ERAv2_S21
+# Nano GPT2 Text Generator
 
 ## Objective
 
